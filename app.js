@@ -1,7 +1,15 @@
 const express = require('express');
-var fallback = require('express-history-api-fallback');
+const bp = require('cookie-parser');
+const cp = require('cookie-parser');
+const axi = require('axios');
+const fallback = require('express-history-api-fallback');
 const port = (process.env.PORT || 3000);
+
+
 const app = express();
+app.use(bp.urlencoded({ extended: true }));
+app.use(bp.json());
+app.use(cp());
 
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');

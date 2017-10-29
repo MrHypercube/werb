@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.17.0",
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
@@ -21,6 +22,7 @@
     "express-history-api-fallback": "^2.2.1",
     "jquery": "^3.2.1",
     "react": "^16.0.0",
+    "react-cookie": "^2.1.1",
     "react-dom": "^16.0.0",
     "react-hot-loader": "^3.1.1",
     "react-router-dom": "^4.2.2",
