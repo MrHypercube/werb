@@ -5,7 +5,7 @@ export default class Home extends Component
   render()
   {
     return(
-      <h1>Hello World!</h1>
+      <h1 className="Title">Hello World!</h1>
     );
   }
 }
