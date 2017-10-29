@@ -1,5 +1,5 @@
 const express = require('express');
-const bp = require('cookie-parser');
+const bp = require('body-parser');
 const cp = require('cookie-parser');
 const axi = require('axios');
 const fallback = require('express-history-api-fallback');
